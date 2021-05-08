@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CAPS",
+    "slug": "caps-app",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.caps.ios",
+      "buildNumber": "1.0.1.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "The app uses the camera to let you to put a photos of your clothing into a digital wardrobe.",
+        "NSPhotoLibraryUsageDescription": "Grant CAPS access to photos to upload them into your digital wardrobe"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3485393765261217~6865268354"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
