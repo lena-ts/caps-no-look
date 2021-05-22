@@ -2,7 +2,7 @@
   "expo": {
     "name": "CAPS",
     "slug": "caps-app",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -19,7 +19,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.caps.ios",
-      "buildNumber": "1.0.1.1",
+      "buildNumber": "1.0.0.0",
       "infoPlist": {
         "NSCameraUsageDescription": "The app uses the camera to let you to put a photos of your clothing into a digital wardrobe.",
         "NSPhotoLibraryUsageDescription": "Grant CAPS access to photos to upload them into your digital wardrobe"
